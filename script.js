@@ -1,0 +1,15 @@
+function toggleMenu(){
+    const nav = document.getElementById("navLinks");
+
+    if(nav.style.display === "flex"){
+        nav.style.display = "none";
+    } else {
+        nav.style.display = "flex";
+    }
+}
+
+function scrollToContact(){
+    document.getElementById("contact").scrollIntoView({
+        behavior: "smooth"
+    });
+}
